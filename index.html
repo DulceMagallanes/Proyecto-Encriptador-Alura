@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class= "alerta"  id="mensaje-alerta" ></div>
+    </header>
+
+    <main class="main">
+
+        <div class="logo">
+
+            <img src="Imagenes/Frame 6.png" alt="Logo de Alura">
+
+        </div>
+
+        <div class="contenedor-principal">
+
+            <div class="entrada texto-estructura">
+
+                <textarea class="entrada-texto-textarea" id="textarea-entrada-texto" placeholder="Ingrese texto aquí"></textarea>
+
+                <div class="informacion-uno">
+
+                    <small> <img class="signo" src="Imagenes/Signo.png"> Solo letras minusculas y sin acentos</small>
+
+                    <div class="botones">
+
+                        <button class="boton b-encriptar" id="encriptar-boton">Encriptar</button>
+                        <button class="boton b-desencriptar" id="desencriptar-boton">Desencriptar</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="contenedor-secundario">
+
+            <div class="salida texto-estructura">
+
+                <div class="informacion-dos">
+
+                    <img id="Muñeco" src="Imagenes/Muñeco.png" alt="muñeco">
+                    <h2>Ningun mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+
+                </div>
+
+                <div class="resultado-salida">
+
+                    <textarea class="salida-texto-textarea" id="textarea-salida-texto"></textarea>
+                    <button class="boton b_copiar" id="copiar-boton">Copiar</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="codigo.js"></script>
+   
+</body>
+
+</html>
